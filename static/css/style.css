@@ -294,6 +294,7 @@ p{
         color: #aae149;
         transition: ease-in 200ms;
         font-weight: bold;
+        cursor: pointer;
     }
 
     .navigation .nav-writeup{
