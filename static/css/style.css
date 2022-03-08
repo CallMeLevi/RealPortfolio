@@ -45,6 +45,7 @@ p{
     background-image: url("../images/my mobile website portrait.jpg");
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
     background-size: cover;
+    background-position: center;
     min-height: 65vh;
     width: auto;
     border-bottom-left-radius: 20px;
@@ -141,7 +142,7 @@ p{
 .about .about-container .skills{
     margin: 0 auto;
     display: grid;
-    max-width: 15em;
+    max-width: 25em;
 }
 
 .about .about-more img{
@@ -153,6 +154,22 @@ p{
 .about .skills h3{
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.about .about-container .skill-1 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #ff4e4e;
+}
+.about .about-container .skill-2 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #2bec3b;
+}
+.about .about-container .skill-3 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #2bdfec;
 }
 
 .services{
@@ -172,6 +189,27 @@ p{
     margin: 0 auto;
 }
 
+.services .services-description .service-item-1 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #d2ff0a;
+}
+.services .services-description .service-item-2 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #0a0eff;
+}
+.services .services-description .service-item-3 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #ff0ade;
+}
+.services .services-description .service-item-4 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: #ff640a;
+}
+
 .work-process{
     background-color: #22202b;
     color: white;
@@ -184,12 +222,46 @@ p{
 }
 
 .work-process .work-process-grid div{
-    max-width: 18em;
+    max-width: 25em;
     margin: 0 auto;
 }
 
 .work-process h2{
     margin: 0;
+}
+
+.work-process .work-process-grid-1 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: rgb(255, 0, 0);
+}
+.work-process .work-process-grid-2 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: rgb(43, 255, 0);
+}
+.work-process .work-process-grid-3 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: rgb(0, 208, 245);
+}
+.work-process .work-process-grid-4 i{
+    padding-top: 1em;
+    font-size: 6em;
+    color: rgb(238, 255, 0);
+}
+
+.work-process .work-process-grid-1 h3{
+    color: rgb(255, 0, 0);
+}
+.work-process .work-process-grid-2 h3{
+    color: rgb(43, 255, 0);
+}
+.work-process .work-process-grid-3 h3{
+    color: rgb(0, 208, 245);
+}
+.work-process .work-process-grid-4 h3{
+    color: rgb(238, 255, 0);
 }
 
 .contact{
@@ -240,7 +312,7 @@ p{
     color: #bebebe;
 }
 
-@media (min-width: 600px){
+@media (min-width: 700px){
     .work-process .work-process-grid, .services .services-description, .about .about-container .skills{
         margin: 0 auto;
         display: grid;
@@ -249,7 +321,7 @@ p{
     }
 }
 
-@media (min-width: 650px){
+@media (min-width: 750px){
     .navigation{
         background-image: url("../images/backgroundimage.jpg");
         background-size: cover;
